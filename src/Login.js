@@ -7,7 +7,8 @@ import './Login.css';
 class Login extends React.Component {
   render() {
     return(
-      <Card style={{ width: '18rem' }}>
+      <div style={{height:"100%",marginTop:"20rem"}}>
+        <Card style={{ width: '20rem',background:"#bedad4" }}>
         <Card.Body>
           <Card.Title>Log In</Card.Title>
           <Card.Text>
@@ -17,6 +18,7 @@ class Login extends React.Component {
           <LoginButton/>
         </Card.Body>
       </Card>
+      </div>
     )
   }
 }
