@@ -16,7 +16,7 @@ class Profile extends Component {
               margin: "Auto",
               marginBottom: "30px",
               marginTop: "30px",
-              backgroundColor: "#A7C4BC",
+              backgroundColor: "#bedad4",
             }}
           >
             <Card.Img

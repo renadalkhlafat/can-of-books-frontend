@@ -1,0 +1,16 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #59ceb4;
+    height: fit-content;
+    padding: 10px;
+}
+h4{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

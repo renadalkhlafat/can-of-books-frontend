@@ -6,12 +6,12 @@ import './BestBooks.css';
 class MyFavoriteBooks extends React.Component {
   render() {
     return(
-      <Jumbotron>
+      <main style={{height:"100%" ,justifyContent:"center",alignItems:"center",margin:"25rem"}}>
         <h1>My Favorite Books</h1>
         <p>
           This is a collection of my favorite books
         </p>
-      </Jumbotron>
+      </main>
     )
   }
 }
