@@ -1,11 +1,57 @@
-# Start your own "Can of Books" App
+# Project Name
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Author**: Renad Al-Khlafat
+**Version**: 1.0.0 
 
-## What can books do?
+## Overview
+the user can login in the website and view his profile if he/she logged in 
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+## Getting Started
+clone the repo in your local machine and bring the domain and clint from auth0
 
-## Use this template
+## Architecture
+ReactJs
+Auth0
+Bootstrap 
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+## Time Estimates
+
+Name of feature: Set up your repositories
+
+Estimate of time needed to complete: one hour
+
+Start time: 2:00 pm
+
+Finish time: 3:10 pm
+
+Actual time needed to complete: one hour and 10 min
+
+___
+Name of feature: Authentication
+
+Estimate of time needed to complete: 2 hours 
+
+Start time: 3:30 pm
+
+Finish time: 5:50 pm
+
+Actual time needed to complete: 2 hours and 20 min
+
+## Logistical
+1. What hours will you be available to communicate?
+at the lab time 
+2. What platform will you use to communicate (ie. Slack, phone …)?
+Discord
+3. How often will you take breaks?
+every 2 hours 
+4. What is your plan if you start to fall behind?
+support each other in a positive way 
+
+
+## Conflict Resolution
+1. What will your team do if one person is pulling all the weight while the other person is not contributing? 
+we will distribute the effort between each other  
+2. What will your team do if one person is taking over the project and not letting the other member contribute?
+We will reasonably understand
+3. How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
+We will distribute the tasks, each according to his skills
