@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel,Button } from 'react-bootstrap';
 
 class Books extends Component {
     render() {
@@ -19,8 +19,10 @@ class Books extends Component {
                                     <Carousel.Caption>
                                         <h3>{book.name}</h3>
                                         <p>{book.description}</p>
-                                        <small>{book.status}</small>
+                                        <small>{book.status}</small><br/>
+                                       <Button className='m-3' variant='outline-light '>Delete Book</Button>
                                     </Carousel.Caption>
+                                    
                                 </Carousel.Item>
                             )
                         })
