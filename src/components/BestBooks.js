@@ -114,7 +114,8 @@ class MyFavoriteBooks extends React.Component {
 
   render() {
     return (
-      <Jumbotron >
+      <Container fluid>
+        <Jumbotron >
         <Row className='justify-content-center m-5'>
           <h1>My Favorite Books</h1>
         </Row>
@@ -154,6 +155,7 @@ class MyFavoriteBooks extends React.Component {
 
 
       </Jumbotron>
+      </Container>
     )
   }
 }
