@@ -118,11 +118,6 @@ class MyFavoriteBooks extends React.Component {
         <Row className='justify-content-center m-5'>
           <h1>My Favorite Books</h1>
         </Row>
-        <Row className='justify-content-center mb-5'>
-          <p>
-            This is a collection of my favorite books
-          </p>
-        </Row>
         <Row className='justify-content-center m-5'>
           <Button
             onClick={this.openCreateModal}
@@ -131,7 +126,7 @@ class MyFavoriteBooks extends React.Component {
             Add Book
           </Button>
         </Row>
-        <Row className='justify-content-center m-5'>
+        <Row md='auto'>
           {this.state.booksArray &&
             <Books
               books={this.state.booksArray}
