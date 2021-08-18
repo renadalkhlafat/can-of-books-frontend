@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from './Header';
-import IsLoadingAndError from './IsLoadingAndError';
-import Footer from './Footer';
+import Header from './components/Header';
+import IsLoadingAndError from './components/IsLoadingAndError';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 import { withAuth0 } from "@auth0/auth0-react";
-import Login from './Login';
-import MyFavoriteBooks from './BestBooks';
-import Profile from './Profile';
+import Login from './components/Login';
+import MyFavoriteBooks from './components/BestBooks';
+import Profile from './components/Profile';
 
 class App extends React.Component {
 
